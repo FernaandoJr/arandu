@@ -68,6 +68,19 @@ source: https://grainrad.com/
 Efeitos WebGPU: ASCII, dithering e retro a 60fps, grátis no browser. Para backgrounds/efeitos pesados sem lag.
 
 ---
+id: ref-feralui-gradients
+room: 50-library
+tags: [gradiente, webgpu, exporter, figma]
+type: ferramenta
+status: unread
+entry: 2026-10-31
+updated: 2026-10-31
+source: https://feralui.dev/gradients
+---
+
+Gradient Builder (Feral UI): mesh/grainy/animated com paleta de cores tradicionais japonesas, grátis e sem signup. Exporta SVG/PNG/MP4 ou cola no Figma como layers editáveis.
+
+---
 id: ref-ascii-magic
 room: 50-library
 tags: [ascii, pixel-art, conversor, browser]
