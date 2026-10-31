@@ -1,5 +1,6 @@
 # Cache e artefatos derivados NUNCA são versionados — o Git guarda só a verdade (.md)
 .palace/cache.sqlite
+.palace/wake-up.md
 *.sqlite
 *.sqlite3
 

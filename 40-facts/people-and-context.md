@@ -14,7 +14,6 @@ GitHub CLI (`gh`) autenticada como **FernaandoJr** (token no keyring, escopo `re
 
 ---
 
----
 id: fato-ambiente-dev
 room: 40-facts
 tags: [windows, infra]

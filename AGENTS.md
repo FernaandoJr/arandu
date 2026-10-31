@@ -19,3 +19,6 @@ Este repositório é a **memória de longo prazo** de Fernando. Tudo aqui é cur
 | Fernando pergunta "como eu...", "o que eu..." | Buscar no palácio primeiro, responder com o que achar + apontar o bloco fonte |
 | Sessão de trabalho termina com aprendizado | Sugerir `/palace save`: destilar decisões e salvar na sala certa |
 | Preferência/fato aparentemente desatualizado | Perguntar se atualiza (não atualizar sozinho) |
+| IA quer buscar rápido/filtrar | `python arandu.py find "<termo>"` (rode `build` antes se o cache não existe) |
+| IA vai começar sessão | `python arandu.py wake` para o contexto L0/L1 do momento |
+| Manutenção periódica | `/palace-audit` (ou `python arandu.py audit` + `graph`) |

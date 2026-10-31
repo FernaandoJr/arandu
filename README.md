@@ -22,3 +22,15 @@ Palácio de memória pessoal para IAs: fatos, skills, projetos, preferências e 
 | `90-archive/` | Porão — conteúdo vencido, nunca deletado |
 
 As IAs entram por [`AGENTS.md`](./AGENTS.md) e navegam desde [`00-reception/index.md`](./00-reception/index.md).
+
+## ⚡ CLI (fase A — tudo local, stdlib, zero dependências)
+
+```bash
+python arandu.py build              # (re)constrói o índice derivado (FTS5)
+python arandu.py find "sqlite"      # busca com ranking
+python arandu.py wake               # gera o wake-up L0/L1 do momento
+python arandu.py save --room 50-library --title "Exemplo" --text "..." --tags ui
+python arandu.py stats | audit | graph | rooms
+```
+
+O `.palace/cache.sqlite` (e o `wake-up.md`) são **derivados** — `.gitignore`, re-geráveis com `build`, **sem migrations**. Rotinas de IA: `/palace-save`, `/palace-recall`, `/palace-audit` (comandos em `.opencode/command/`).

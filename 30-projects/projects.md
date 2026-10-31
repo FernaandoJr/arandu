@@ -16,4 +16,4 @@ Fase 1 (atual): esqueleto de salas + AGENTS.md + protocolo.
 Fase 2 prevista: rotina `/palace save` + `/palace recall`.
 Fase 3 prevista: indexador derivado (FTS5 + sqlite-vec) exposto via MCP — **sem migration** (cache re-gerável).
 
-[[pref-objetivos-fase-atual]] • [[skill-desenho-assets-derivative]] • git: https://github.com/FernaandoJr/arandu
+[[pref-objetivos-fase-atual]] • [[skill-dados-derivative]] • git: https://github.com/FernaandoJr/arandu

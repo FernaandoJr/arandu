@@ -16,7 +16,6 @@ Estilo: explicar o conceito de forma simples primeiro, depois o detalhe específ
 
 ---
 
----
 id: skill-plano-antes-executar
 room: 20-skills
 tags: [fluxo, planejamento]
@@ -29,7 +28,6 @@ Para mudanças estruturais: propor a estrutura/plano antes de aplicar. Commits p
 
 ---
 
----
 id: skill-dados-derivative
 room: 20-skills
 tags: [arquitetura, dados]

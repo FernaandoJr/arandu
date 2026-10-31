@@ -22,6 +22,7 @@ abra outro bloco e ligue com [[id-do-artigo-relacionado]]>
 ## Regras
 
 1. **1 ideia = 1 bloco.** Bloco grande = dois blocos + link.
+2. **`---` é reservado para frontmatter.** Separadores decorativos entre blocos usam `###` ou linha em branco — nunca `---` (a CLI parseia os blocos por ele).
 2. **`status` é o ciclo de vida:**
    - `hot` — influencia o dia a dia (preferências ativas, decisões recentes)
    - `active` — relevante mas periodicamente revisada (projetos, skills)
