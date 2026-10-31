@@ -1,4 +1,4 @@
-# 🏛 hikma
+# 🏛 arandu
 
 Palácio de memória pessoal para IAs: fatos, skills, projetos, preferências e bibliotecas de referência — tudo **versionado em Markdown + Git**.
 
