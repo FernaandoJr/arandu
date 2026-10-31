@@ -26,11 +26,13 @@ As IAs entram por [`AGENTS.md`](./AGENTS.md) e navegam desde [`00-reception/inde
 ## ⚡ CLI (fase A — tudo local, stdlib, zero dependências)
 
 ```bash
-python arandu.py build              # (re)constrói o índice derivado (FTS5)
-python arandu.py find "sqlite"      # busca com ranking
-python arandu.py wake               # gera o wake-up L0/L1 do momento
-python arandu.py save --room 50-library --title "Exemplo" --text "..." --tags ui
-python arandu.py stats | audit | graph | rooms
+arandu build                    # (re)constrói o índice derivado (FTS5)
+arandu find "sqlite"            # busca com ranking
+arandu wake                     # gera o wake-up L0/L1 do momento
+arandu save --room 50-library --title "Exemplo" --text "..." --tags ui
+arandu stats | audit | graph | rooms
 ```
+
+> Comando global `arandu`: shim `arandu.cmd` em `WindowsApps` apontando para este repo — sem `python` na frente. (Sem shim: `python arandu.py ...` faz o mesmo.)
 
 O `.palace/cache.sqlite` (e o `wake-up.md`) são **derivados** — `.gitignore`, re-geráveis com `build`, **sem migrations**. Rotinas de IA: `/palace-save`, `/palace-recall`, `/palace-audit` (comandos em `.opencode/command/`).
