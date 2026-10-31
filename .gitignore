@@ -1,0 +1,12 @@
+# Cache e artefatos derivados NUNCA são versionados — o Git guarda só a verdade (.md)
+.palace/cache.sqlite
+*.sqlite
+*.sqlite3
+
+# Sistema / SO
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
