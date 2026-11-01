@@ -79,6 +79,9 @@ def scan_files() -> list[tuple[Path, list[dict]]]:
     corpus = []
     for room in rooms():
         for md in sorted(room.rglob("*.md")):
+            rel = md.relative_to(room).as_posix()
+            if md.name == "SKILL.md" or rel.startswith("skills/"):
+                continue                       # arquivo guardado na biblioteca, não é bloco
             try:
                 text = md.read_text(encoding="utf-8", errors="replace")
             except OSError:
